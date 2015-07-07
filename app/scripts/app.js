@@ -37,8 +37,8 @@ angular
         controller: 'ServicesCtrl',
         controllerAs: 'contact'
       })
-      .when('/washingtonUpdate', {
-        templateUrl: 'views/washingtonUpdate.html',
+      .when('/news', {
+        templateUrl: 'views/news.html',
         controller: 'NewsCtrl',
         controllerAs: 'news'
       })
