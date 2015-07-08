@@ -13,7 +13,7 @@ angular.module('chgApp').directive('chgTwitter', function () {
             return {
                 restrict: 'E',
                 replace: true,
-                template: '<a class="twitter-timeline" href="https://twitter.com/CHGAssociate/lists/transit-news" data-widget-id="617558521438183424">Tweets from https://twitter.com/CHGAssociate/lists/transit-news</a>',
+                template: '<a class="twitter-timeline" href="https://twitter.com/CHGAssociate/lists/transit-news" data-widget-id="617558521438183424" id="twitterTimeline">Tweets from https://twitter.com/CHGAssociate/lists/transit-news</a>',
 
                 link: function (scope, el, attr) {
 

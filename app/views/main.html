@@ -1,12 +1,10 @@
-           <div class="row">
-            <h4>Some introduction to CHG associates</h4>
-           </div>
-           <div class="row">
+            <div class="row">
              <div ng-controller="MainCtrl as main" id="slides_control">
               <div>
                <carousel interval="myInterval">
                 <slide ng-repeat="slide in slides" active="slide.active">
-                  <img ng-src="{{slide.image}}" style="margin:auto;">
+                    <h1 class="pageHeaderText text-left">CHG & Associates - Transit Solutions</h1>
+                        <img class="fill" ng-src="{{slide.image}}" style="margin:auto;">
                   <div class="carousel-caption">
                     <h1>{{slide.text}}</h1>
                   </div>
